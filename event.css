@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+      padding: 0px;
+
+}
+
+.flex-container { /* to lay a collection of items out in one direction or another. */
+  display: flex;
+  /*To create a flex container, we set the value of the area's container's display property to flex */
+  flex-wrap: wrap;
+  /*specify whether flex items are forced into a single line or 
+             wrapped onto multiple lines. */
+
+}
+
+
+.flex-item-1 {
+  background-color: #f1f1f1;
+  padding: 25px;
+  flex: 100%;
+  background-color: palegreen;
+}
+
+.logo {
+
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.logo:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.nav a:hover {
+  color: rgb(27, 136, 27);
+}
+
+
+.flex-item-2 {
+  text-align: center;
+  padding: 10px;
+  flex: 100%;
+  background-color: palegreen;
+}
+
+.register {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(27, 136, 27);
+}
+
+.register:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.flex-item-3 {
+  background-color: #f1f1f1;
+  padding: 35px;
+  flex: 33%;
+  text-align: center;
+}
+
+.flex-item-4 {
+  background-color: #f1f1f1;
+  padding: 35px;
+  flex: 33%;
+  text-align: center;
+}
+
+.flex-item-5 {
+  background-color: #f1f1f1;
+  padding: 35px;
+  flex: 33%;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.Speakers {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Speakers:hover {
+  color: green;
+}
+
+.flex-item-6 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 100%;
+}
+
+.navigation a {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+}
+
+
+
+/* Responsive layout */
+
+@media (max-width: 600px) {
+
+  .flex-item-1,
+  .flex-item-2,
+  .flex-item-3,
+  .flex-item-4,
+  .flex-item-5,
+  .flex-item-6 ,
+  .navigation{
+      flex: 100%;
+  
+  }
+}
